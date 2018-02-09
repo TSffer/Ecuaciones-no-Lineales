@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="c:\laztoapk\downloads\laz4android1.8\fpc\3.0.4\bin\i386-win32\fpc.exe" Date="1266881785"/>
+  <Params Value=" -Tandroid -Parm -MObjFPC -Scghi -O1 -l -vewnhibq -FiC:\laztoapk\applicaciones\lib\arm-android -Flc:\laztoapk\downloads\android-ndk-r14b\platforms\android-22\arch-arm\usr\lib -Fuc:\laztoapk\downloads\laz4android1.8\config\onlinepackagemanager\packages\LAMW\android_bridges\lib\arm-android -Fuc:\laztoapk\downloads\laz4android1.8\lcl\units\arm-android\customdrawn -Fuc:\laztoapk\downloads\laz4android1.8\lcl\units\arm-android -Fuc:\laztoapk\downloads\laz4android1.8\components\lazutils\lib\arm-android -Fuc:\laztoapk\downloads\laz4android1.8\packager\units\arm-android -FuC:\laztoapk\applicaciones\ -FUC:\laztoapk\applicaciones\lib\arm-android\ -FEC:\laztoapk\applicaciones\android\libs\armeabi\ -oliblclapp.so -dLCL -dLCLcustomdrawn -dANDROID -Xd -CpARMV6 applicacionesandroid.lpr"/>
+</CONFIG>

@@ -1,0 +1,170 @@
+object frmApplicacionesMain: TfrmApplicacionesMain
+  Left = 229
+  Height = 394
+  Top = 161
+  Width = 795
+  Caption = 'ApplicacionesMain'
+  ClientHeight = 394
+  ClientWidth = 795
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.8.0.6'
+  object Ecuacion: TCDEdit
+    Left = 24
+    Height = 25
+    Top = 27
+    Width = 376
+    DrawStyle = dsDefault
+  end
+  object CDButton3: TCDButton
+    Left = 312
+    Height = 25
+    Top = 360
+    Width = 192
+    Caption = 'Close App'
+    DrawStyle = dsDefault
+    OnClick = CDButton3Click
+    TabOrder = 1
+    TabStop = True
+  end
+  object StringGrid1: TStringGrid
+    Left = 24
+    Height = 208
+    Top = 144
+    Width = 752
+    DefaultColWidth = 150
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+    RowCount = 1
+    TabOrder = 2
+    Cells = (
+      5
+      0
+      0
+      '                      a'
+      1
+      0
+      '                     b'
+      2
+      0
+      '                       xn'
+      3
+      0
+      '                  signo'
+      4
+      0
+      '                    Error'
+    )
+  end
+  object CDButton1: TCDButton
+    Left = 64
+    Height = 25
+    Top = 88
+    Width = 80
+    Caption = 'Operar'
+    DrawStyle = dsDefault
+    OnClick = CDButton1Click
+    TabOrder = 3
+    TabStop = True
+  end
+  object CDEdit3: TCDEdit
+    Left = 200
+    Height = 25
+    Top = 88
+    Width = 80
+    DrawStyle = dsDefault
+    Lines.Strings = (
+      '0.001'
+    )
+  end
+  object CDStaticText1: TCDStaticText
+    Left = 448
+    Height = 20
+    Top = 32
+    Width = 112
+    Caption = '0'
+    DrawStyle = dsDefault
+  end
+  object CDEdit1: TCDEdit
+    Left = 296
+    Height = 25
+    Top = 88
+    Width = 80
+    DrawStyle = dsDefault
+  end
+  object CDEdit4: TCDEdit
+    Left = 392
+    Height = 25
+    Top = 88
+    Width = 80
+    DrawStyle = dsDefault
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 536
+    Height = 72
+    Top = 56
+    Width = 152
+    AutoFill = True
+    Caption = 'Metodos Cerrados'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 52
+    ClientWidth = 148
+    OnClick = RadioGroup1Click
+    TabOrder = 8
+    object CDRadioButton1: TCDRadioButton
+      Left = 6
+      Height = 26
+      Top = 0
+      Width = 136
+      Caption = 'M.Bisección'
+      DrawStyle = dsDefault
+    end
+    object CDRadioButton2: TCDRadioButton
+      Left = 6
+      Height = 26
+      Top = 26
+      Width = 136
+      Caption = 'M.FalsaPosición'
+      Checked = True
+      DrawStyle = dsDefault
+    end
+  end
+  object CDStaticText2: TCDStaticText
+    Left = 210
+    Height = 16
+    Top = 64
+    Width = 62
+    Caption = 'Presición'
+    DrawStyle = dsDefault
+  end
+  object CDStaticText3: TCDStaticText
+    Left = 296
+    Height = 20
+    Top = 64
+    Width = 70
+    Caption = '            a'
+    DrawStyle = dsDefault
+  end
+  object CDStaticText4: TCDStaticText
+    Left = 400
+    Height = 20
+    Top = 64
+    Width = 70
+    Caption = '           b'
+    DrawStyle = dsDefault
+  end
+  object CDStaticText5: TCDStaticText
+    Left = 296
+    Height = 20
+    Top = 0
+    Width = 158
+    Caption = 'ECUACIONES NO LINEALES'
+    DrawStyle = dsDefault
+  end
+end
